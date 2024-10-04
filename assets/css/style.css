@@ -61,7 +61,8 @@ margin-top: 2em;}
 color: white;
 background-color:#e22d0e;
 padding: 1em 2em;
-margin-top: 2em;
+margin-top: 3em;
+margin-bottom: 3em;
 text-align: center;
 }
 
@@ -108,16 +109,19 @@ padding-right: 1.5em;}
 footer{color: white;
 background-color: #25a2c3;
 margin-top: 4em;
-padding-top: 1.5em;}
+padding-top: 2em;
+padding-bottom: 4em;}
 
 footer a {color: #c8e7f0;
+
 }
 
-footer h4{font-size: 20px;
+footer h4{font-size: 24px;
     font-weight: bold;
-    margin-top: 1.5em;
+    /* margin-top: 1.5em; */
     margin-bottom: 1em;
-    font-family: 'Montserrat',Arial, Helvetica, sans-serif;}
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+}
 
     footer i{margin-right: 0.25em;}
 
