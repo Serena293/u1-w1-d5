@@ -23,10 +23,11 @@ h1{color:#25a2c3;
 font-family: 'montserrat', Helvetica, sans-serif;
 font-weight: 700;
 font-size: 27px;
-line-height: 1.5;
+line-height: 1;
 padding-top: 2em;
-padding-bottom: 2em;}
-
+padding-bottom: 1em;
+padding-left: 3em;
+padding-right: 3em;}
 
 #title{background-image: url(./images/banner.jpg);
     background-size: cover;
@@ -42,6 +43,7 @@ padding: 1em 2.5em;
 border-radius: 3px;
 margin-top: 2.5em;
 margin-bottom: 2em;}
+
 
 h3{color:#25a2c3;
     font-family: 'montserrat', Helvetica, sans-serif;
