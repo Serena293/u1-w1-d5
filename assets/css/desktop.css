@@ -13,11 +13,17 @@ header img {
   width: 150px;
 }
 
+
+#title p{
+    padding-left: 18em;
+    padding-right: 18em;
+}
+
 h1 {
   color: #25a2c3;
   font-family: "montserrat", Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 30px;
   line-height: 1.5;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -51,16 +57,20 @@ h3 {
 #picture1 {
   width: 350px;
   border-radius: 50%;
-  margin-top: 2em;
+
   display: inline-block;
-  margin-right: 3em;
+  margin-right:3em;
+  margin-left: 10em;
   margin-top: 3em;
 }
+
+
 
 #text-picture1 {
   display: inline-block;
   text-align: left;
   margin-top: 3em;
+  vertical-align: top;
 }
 
 #epicode-statement {
@@ -96,11 +106,13 @@ h3 {
 #a-related-articles {
   font-size: 0;
   text-align: center;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 .related-articles {
   display: inline-block;
-  width: 26%;
-  margin: 2.5em;
+  width: 27%;
+
   box-sizing: border-box;
   border: solid 1px #dee1e3;
   padding-bottom: 2em;
@@ -109,13 +121,22 @@ h3 {
   vertical-align: top;
 }
 
+.related-articles:nth-child(2) {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
 .img-related-article {
   width: 100%;
+  height: 30vh;
 }
 
 .text-related-articles {
   padding-left: 1.5em;
   padding-right: 1.5em;
+  height: 100%;
+  width: 90%;
+  text-align: center;
 }
 
 footer {
@@ -140,7 +161,7 @@ footer h4 {
 }
 
 footer i {
-  margin-right: 0.25em;
+  margin-right: 0.3em;
 }
 
 hr {
