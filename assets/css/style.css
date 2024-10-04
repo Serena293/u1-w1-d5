@@ -1,1 +1,41 @@
-/* Your styles here */
+body {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #393d41;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  line-height: 1.65;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+img {
+  width: 150px;
+}
+
+h1{color:#25a2c3;
+font-family: 'montserrat', Helvetica, sans-serif;
+font-weight: 700;
+font-size: 27px;
+line-height: 1.5;
+padding-top: 2em;
+padding-bottom: 2em;}
+
+
+#title{background-image: url(./images/banner.jpg);
+    background-size: cover;
+text-align: center;}
+
+#title button{color: white;
+background-color: #f04c2f ;
+font-family: 'Montserrat ', Arial, Helvetica, sans-serif;
+border: none;
+padding: 1em 2.5em;
+border-radius: 3px;
+margin-top: 2.5em;
+margin-bottom: 2em;}
